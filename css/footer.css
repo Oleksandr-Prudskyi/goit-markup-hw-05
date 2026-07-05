@@ -1,0 +1,119 @@
+.footer {
+    background-color: #2E2F42;
+    padding: 100px 0;
+    margin: 0 auto;
+    min-width: 1440px;
+}
+.footer .container {
+    display: flex;
+}
+/* Logo */
+.logo .studio-footer {
+    color: #F4F4FD;
+}
+.wrap-logo {
+    max-width: 264px;
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.logo-p {
+    color: #F4F4FD;
+}
+/* Social-link company*/
+.wrap-media {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer-media {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 208px;
+    height: auto;
+    align-content: flex-start;
+}
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-media-p {
+    display: block;
+    width: 100%;
+    flex-wrap: wrap;
+    /* align-items: flex-start;
+    width: 100%; */
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.footer-icon {
+    fill: #f4f4fd;
+}
+.social-link:hover,
+.social-link:focus {
+    background-color: #31D0AA;
+    transform: translateX(1px);
+}
+.wrap-subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-left: 83px;
+}
+.subscribe-lbl {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+.subscribe-form {
+    width: 453px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 24px;
+}
+.subscribe-input {
+    border: 1px solid #F4F4FD;
+    border-radius: 4px;
+    padding: 8px 16px;
+    width: 264px;
+    height: 40px;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+}
+.subscribe-btn {
+    border-radius: 4px;
+    border: none;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    max-width: 165px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #F4F4FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+    background: #4d5ae5;
+}

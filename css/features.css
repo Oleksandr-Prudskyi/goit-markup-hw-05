@@ -1,0 +1,28 @@
+.features {
+    background-color: #FFFFFF;
+    padding: 120px 0;
+}
+.features p {
+    line-height: 1.5;
+}
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+.box-features-icon {
+    background-color: #F4F4FD;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    height: 112px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.features-content {
+    width: calc((100% - 72px) /4);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
