@@ -490,9 +490,10 @@
           </ul>
         </div>
         <div class="wrap-subscribe">
-          <label class="subscribe-lbl" for="subscribe">Subscribe</label>
+          <p class="subscribe">Subscribe</p>
           <form class="subscribe-form">
             <input
+              name="email"
               class="subscribe-input"
               id="subscribe"
               type="email"
@@ -511,8 +512,8 @@
     </footer>
     <!-- #endregion footer -->
     <!-- #region modal -->
-    <div class="modal-overlay is-open">
-      <div class="modal">
+    <section class="modal-overlay" id="modal">
+      <section class="modal">
         <button class="modal-close-btn" type="button">
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
@@ -523,9 +524,9 @@
 
         <form class="modal-form">
           <!-- Name -->
-          <div class="modal-form-group">
+          <section class="modal-form-group">
             <label class="modal-form-label" for="user-name">Name</label>
-            <div class="modal-form-wrap">
+            <section class="modal-form-wrap">
               <input
                 class="modal-form-input"
                 type="text"
@@ -535,13 +536,13 @@
               <svg class="modal-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
-            </div>
-          </div>
+            </section>
+          </section>
 
           <!-- Phone -->
-          <div class="modal-form-group">
+          <section class="modal-form-group">
             <label class="modal-form-label" for="user-phone">Phone</label>
-            <div class="modal-form-wrap">
+            <section class="modal-form-wrap">
               <input
                 class="modal-form-input"
                 type="tel"
@@ -551,13 +552,13 @@
               <svg class="modal-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
-            </div>
-          </div>
+            </section>
+          </section>
 
           <!-- Email -->
-          <div class="modal-form-group">
+          <section class="modal-form-group">
             <label class="modal-form-label" for="user-email">Email</label>
-            <div class="modal-form-wrap">
+            <section class="modal-form-wrap">
               <input
                 class="modal-form-input"
                 type="email"
@@ -567,11 +568,11 @@
               <svg class="modal-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
-            </div>
-          </div>
+            </section>
+          </section>
 
           <!-- Comment -->
-          <div class="modal-form-group">
+          <section class="modal-form-group">
             <label class="modal-form-label" for="user-comment">Comment</label>
             <textarea
               class="modal-form-comment"
@@ -579,10 +580,10 @@
               id="user-comment"
               placeholder="Text input"
             ></textarea>
-          </div>
+          </section>
 
           <!-- Checkbox (кастомний) -->
-          <div class="modal-form-check">
+          <section class="modal-form-check">
             <input
               class="modal-form-checkbox visually-hidden"
               type="checkbox"
@@ -601,14 +602,14 @@
                 <a class="modal-form-check-link" href="#">Privacy Policy</a>
               </span>
             </label>
-          </div>
+          </section>
           <!-- Submit -->
-          <div class="wrap-btn-modal">
+          <section class="wrap-btn-modal">
           <button class="modal-form-submit" type="submit">Send</button>
-        </div>
+        </section>
         </form>
-      </div>
-    </div>
+      </section>
+    </section>
     <!-- #endregion modal -->
   </body>
 </html>
